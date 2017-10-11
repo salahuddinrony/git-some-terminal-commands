@@ -83,3 +83,10 @@ git branch -D branch2
 
 // allow-unrelated-histories switch
 git pull origin master --allow-unrelated-histories
+
+// To remove a remote repository you enter: fatal: 
+// remote origin already exists.
+git remote rm origin
+
+// Again "origin" is the name of the remote repository if you want to remove the "upstream" remote:
+git remote rm upstream
