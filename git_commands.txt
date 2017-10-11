@@ -1,0 +1,85 @@
+
+// Git Initialize
+$ git init
+
+// Git Ststus Check
+$ git status
+
+// Git Configuration
+$ git config --global user.name "megadevlabs"
+$ git config --global user.email "cisrony@gmail.com"
+
+// Git Username Check
+$ git config user.name
+megadevlabs
+
+// Git User Email Check
+$ git config user.email
+cisrony@gmail.com
+
+// Git New File Create
+$ touch index.html
+
+// Git Targeted File open in a editor
+$ notepad index.html
+
+// Git New Untracked file add on git stage (Single file)
+$ git add index.html
+
+// Git New Untracked file add on git stage using one command (Multiple file)
+$ git add .
+
+// Create a Project Folder
+$ mkdir img
+
+// Remove a Project Folder
+$ rmdir img
+
+// Commit Command with message
+$ git commit -m "index.html,style.css and img all of are commite now"
+
+// Check All File List On Git Project
+$ ls -a
+./  ../  .git/  img/  index.html  style.css
+
+// Git New Branch Create
+$ git branch branch2
+
+// Check All Existing Branches
+$ git branch
+  branch2
+* master
+
+// Default Branch Change
+$ git checkout branch2
+Switched to branch 'branch2'
+
+// Commit on New Branch New file
+$ git commit -m "about.html page are created in on branch2"
+
+// Git New Branch Files Merge On Master Branch
+$ git merge branch2
+
+// Git Help
+$ git --help
+
+// push an existing repository from the command line
+git remote add origin https://github.com/salahuddinrony/test2.git
+git push -u origin master
+
+// Git Upload local project on Remote Github Repositort
+$ git push origin master
+
+// Git force pull to overwrite local files
+$ git fetch --all
+$ git reset --hard origin/master
+$ git pull origin master
+
+// New Branch Create and Push On Github from local Git
+$ git push origin branch2
+
+// Git Branch Delete
+git branch -D branch2
+
+// allow-unrelated-histories switch
+git pull origin master --allow-unrelated-histories
