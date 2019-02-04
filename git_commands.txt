@@ -7,7 +7,7 @@ $ git status
 
 // Git Configuration
 $ git config --global user.name "megadevlabs"
-$ git config --global user.email "cisrony@gmail.com"
+$ git config --global user.email "example@gmail.com"
 
 // Git Username Check
 $ git config user.name
@@ -15,7 +15,7 @@ megadevlabs
 
 // Git User Email Check
 $ git config user.email
-cisrony@gmail.com
+example@gmail.com
 
 // Git New File Create
 $ touch index.html
